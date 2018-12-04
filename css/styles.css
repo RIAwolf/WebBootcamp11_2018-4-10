@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    width: 960px;
+    margin: auto;
+    background-color: honeydew;
+}
+
+ul {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+ul li {
+    display: inline-block;
+    line-height: 40px;
+    background-color: beige;
+    border-radius: 10px;
+
+
+    padding: 0px 10px;
+    word-break: keep-all;
+    min-width: 60px;
+    margin-bottom: 10px;
+}
+
+ul li a {
+    font-family: Verdana;
+    color: cornflowerblue;
+    text-decoration: unset;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+p, div {
+    font-family: Verdana;
+    font-size: 30px;
+}
+
+
+atsakymas {
+    display: block;
+    width: 600px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    font-family: "Courier New";
+    font-size: 16px;
+    background-color: black;
+    color: chartreuse;
+    border-radius: 30px;
+    padding: 40px;
+    text-align: left;
+}
+
+atsakymas::before {
+    content: "username@localhost:$ ";
+}
+
+form {
+    padding-top: 30px;
+    width: 400px;
+    margin: auto;
+    font-family: "Courier New";
+}
+
+input[type="text"] {
+    margin-bottom: 30px;
+}
+
+input[type="submit"] {
+    margin-top: 30px;
+}
