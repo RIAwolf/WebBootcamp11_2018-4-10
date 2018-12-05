@@ -8,4 +8,7 @@
     <li><a href="/tema2/task6.php">Užduotis 6</a></li>
     <li><a href="/tema2/task7.php">Užduotis 7</a></li>
     <li><a href="/tema2/task8.php">Užduotis 8</a></li>
+    <li><a href="/tema2/task9.php">Užduotis 9</a></li>
+    <li><a href="/tema2/task10.php">Užduotis 10</a></li>
+
 </ul>
