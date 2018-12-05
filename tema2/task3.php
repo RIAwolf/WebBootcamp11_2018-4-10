@@ -13,7 +13,8 @@ include("../fragments/menu2.php");
 <p>Sukurti puslapį, kuris paprašytų vartotojo įvesti žodį ir jį atvaizduotų, jei vartotojas įveda žodį "pabaiga"
     puslapis parodo visus įvestus žodžius.</p>
 <form action="#" method="get">
-    <input type="text" name="zodis">
+    <input type="text" name="zodis"><br>
+    <input type="checkbox" name="clean">Valyti sesija <br>
     <input type="submit">
 </form>
 <?php
@@ -26,14 +27,18 @@ if (isset($_REQUEST["zodis"])) {
 
     $zodis = $_REQUEST["zodis"];
     // va cia sudeti logika
-    if($zodis != "pabaiga") {
+    if ($zodis != "pabaiga") {
         $_SESSION["sakinys"] .= "$zodis ";
         echo $zodis;
-    }else{
+    } else {
         echo $_SESSION["sakinys"];
     }
 
     echo "</atsakymas>";
-} ?>
+}
+if (isset($_REQUEST["clean"]) && $_REQUEST["clean"] == "on") {
+    $_SESSION["sakinys"] = "";
+}
+?>
 </body>
 </html>
