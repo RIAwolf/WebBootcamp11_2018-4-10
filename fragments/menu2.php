@@ -11,5 +11,6 @@
     <li><a href="/tema2/task9.php">Užduotis 9</a></li>
     <li><a href="/tema2/task10.php">Užduotis 10</a></li>
     <li><a href="/tema2/task11.php">Užduotis 11</a></li>
+    <li><a href="/tema2/task12.php">Užduotis 12</a></li>
 
 </ul>
