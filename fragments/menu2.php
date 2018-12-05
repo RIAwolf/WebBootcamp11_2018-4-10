@@ -12,5 +12,7 @@
     <li><a href="/tema2/task10.php">Užduotis 10</a></li>
     <li><a href="/tema2/task11.php">Užduotis 11</a></li>
     <li><a href="/tema2/task12.php">Užduotis 12</a></li>
+    <li><a href="/tema2/task13.php">Užduotis 13</a></li>
+    <li><a href="/tema2/task14.php">Užduotis 14</a></li>
 
 </ul>
