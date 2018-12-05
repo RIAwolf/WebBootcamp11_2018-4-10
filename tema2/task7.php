@@ -9,9 +9,7 @@
 <?php
 include("../fragments/menu2.php");
 ?>
-<p>Sukurti puslapį, kuris paprašytų vartotojo įvesti žodžius atskirtus kableliais. Paspaudus submit, įvesti žodžiai turi
-    būti atvaizduojami, kiekvienas žodis naujoje eilutėje
-    Hint php naudoti: 💣</p>
+<p>Sukurti puslapį, kuris leistų įvesti skaičius atskirtus kableliais. Paspaudus submit, turi būti atvaizduojama įvestų skaičių suma ir visi įvesti skaičiai.</p>
 <form action="#" method="get">
     <input type="text" name="zodziai">
     <input type="submit">
