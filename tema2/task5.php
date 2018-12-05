@@ -10,8 +10,8 @@
 <?php
 include("../fragments/menu2.php");
 ?>
-<p>Sukurti puslapį, kuris paprašytų vartotojo įvesti skaičių, įvedus skaičių 0 būtų atvaizduojama įvestų skaičių
-    suma.</p>
+<p>Papildykite 4 programą kuri neleistų įvesti ne skaičius, jei vartotojas įveda ne skaičių programa prašo, kad įvestas
+    ne skaičius.</p>
 <form action="#" method="get">
     <input type="text" name="sk">
     <input type="submit">
