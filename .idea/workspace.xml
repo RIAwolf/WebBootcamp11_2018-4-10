@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="492d6398-c680-4f83-92e2-4de945e9cb57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tema3/task5.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fragments/menu3.php" beforeDir="false" afterPath="$PROJECT_DIR$/fragments/menu3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task7.php" beforeDir="false" afterPath="$PROJECT_DIR$/task7.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,15 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tema3/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tema3/task2.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -50,20 +40,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tema3/task5.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+            <state relative-caret-position="17">
+              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="40" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task7.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="10" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="566">
+              <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -124,7 +114,6 @@
         <option value="$PROJECT_DIR$/task2.php" />
         <option value="$PROJECT_DIR$/task3.php" />
         <option value="$PROJECT_DIR$/task8.php" />
-        <option value="$PROJECT_DIR$/task7.php" />
         <option value="$PROJECT_DIR$/task4.php" />
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/task6.php" />
@@ -160,6 +149,7 @@
         <option value="$PROJECT_DIR$/task5.php" />
         <option value="$PROJECT_DIR$/fragments/menu3.php" />
         <option value="$PROJECT_DIR$/tema3/task5.php" />
+        <option value="$PROJECT_DIR$/task7.php" />
       </list>
     </option>
   </component>
@@ -188,6 +178,11 @@
               <item name="php1" type="b2602c69:ProjectViewProjectNode" />
               <item name="php1" type="462c0819:PsiDirectoryNode" />
               <item name="fragments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php1" type="462c0819:PsiDirectoryNode" />
+              <item name="tema2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="php1" type="b2602c69:ProjectViewProjectNode" />
@@ -240,7 +235,7 @@
       <workItem from="1543827943083" duration="14648000" />
       <workItem from="1543907740566" duration="822000" />
       <workItem from="1543994335572" duration="16297000" />
-      <workItem from="1544080213216" duration="7476000" />
+      <workItem from="1544080213216" duration="8610000" />
     </task>
     <task id="LOCAL-00001" summary="sesijos valymas">
       <created>1544009987258</created>
@@ -354,11 +349,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544086656833</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="oop task 5">
+      <created>1544088343377</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1544088343377</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39243000" />
+    <option name="totallyTimeSpent" value="40377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -425,7 +427,8 @@
     <MESSAGE value="oop task 1" />
     <MESSAGE value="oop task 2" />
     <MESSAGE value="oop task 3 ir 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="oop task 3 ir 4" />
+    <MESSAGE value="oop task 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="oop task 5" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/styles.css">
@@ -473,13 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tema2/task1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -679,17 +675,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task7.php">
+    <entry file="file://$PROJECT_DIR$/tema2/task1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="10" />
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tema3/task5.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="17">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task7.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
         </state>
       </provider>
     </entry>
