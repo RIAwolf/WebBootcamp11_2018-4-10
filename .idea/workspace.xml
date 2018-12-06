@@ -32,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/DBConnector.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1780">
-              <caret line="113" column="10" selection-start-line="113" selection-start-column="10" selection-end-line="113" selection-end-column="10" />
+            <state relative-caret-position="417">
+              <caret line="142" column="14" selection-start-line="142" selection-start-column="14" selection-end-line="142" selection-end-column="14" />
               <folding>
                 <element signature="n#getAllStudents#0;n#DBConnector#0;n#!!top" />
                 <element signature="n#getAllStudentsAboveID#0;n#DBConnector#0;n#!!top" />
@@ -48,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+            <state relative-caret-position="206">
+              <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -117,8 +117,8 @@
         <option value="$PROJECT_DIR$/tema3/task5.php" />
         <option value="$PROJECT_DIR$/tema3/TaskInterface.php" />
         <option value="$PROJECT_DIR$/db/index.html" />
-        <option value="$PROJECT_DIR$/db/index.php" />
         <option value="$PROJECT_DIR$/db/DBConnector.php" />
+        <option value="$PROJECT_DIR$/db/index.php" />
       </list>
     </option>
   </component>
@@ -198,7 +198,7 @@
       <workItem from="1543827943083" duration="14648000" />
       <workItem from="1543907740566" duration="822000" />
       <workItem from="1543994335572" duration="16297000" />
-      <workItem from="1544080213216" duration="16892000" />
+      <workItem from="1544080213216" duration="17656000" />
     </task>
     <task id="LOCAL-00001" summary="sesijos valymas">
       <created>1544009987258</created>
@@ -347,11 +347,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544098923784</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="prints any table">
+      <created>1544101261808</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1544101261808</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48659000" />
+    <option name="totallyTimeSpent" value="49423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -423,7 +430,8 @@
     <MESSAGE value="oop interface" />
     <MESSAGE value="DB connection" />
     <MESSAGE value="DB pirmi du uzdaviniai" />
-    <option name="LAST_COMMIT_MESSAGE" value="DB pirmi du uzdaviniai" />
+    <MESSAGE value="prints any table" />
+    <option name="LAST_COMMIT_MESSAGE" value="prints any table" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/styles.css">
@@ -712,17 +720,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/DBConnector.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1780">
-          <caret line="113" column="10" selection-start-line="113" selection-start-column="10" selection-end-line="113" selection-end-column="10" />
+        <state relative-caret-position="417">
+          <caret line="142" column="14" selection-start-line="142" selection-start-column="14" selection-end-line="142" selection-end-column="14" />
           <folding>
             <element signature="n#getAllStudents#0;n#DBConnector#0;n#!!top" />
             <element signature="n#getAllStudentsAboveID#0;n#DBConnector#0;n#!!top" />
@@ -730,6 +731,13 @@
             <element signature="n#addStudent#1;n#DBConnector#0;n#!!top" />
             <element signature="n#updateStudent#0;n#DBConnector#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
         </state>
       </provider>
     </entry>

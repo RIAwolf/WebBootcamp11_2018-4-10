@@ -105,6 +105,7 @@ class DBConnector
         $q = "SELECT * FROM `student_address` WHERE `city` = 'Kaunas';";
         return $this->conn->query($q);
     }
+
     public function getUzduotis4()
     {
         $q = "SELECT * FROM `student_address` WHERE `postcode` IS NOT NULL;";
@@ -113,5 +114,39 @@ class DBConnector
 
     public function getUzduotis5()
     {
+        $q = "SELECT * FROM `student_address` WHERE `postcode` IS NOT NULL;";
+        return $this->conn->query($q);
+    }
+
+    public function getUzduotis6()
+    {
+        $q = "SELECT * FROM `student_marks` ORDER BY `mark` DESC;";
+        return $this->conn->query($q);
+    }
+
+    public function getUzduotis7()
+    {
+        $q = "SELECT count(*) as `max` FROM `student_marks` WHERE `mark` = 10";
+        return $this->conn->query($q);
+    }
+
+    public function getUzduotis8()
+    {
+        $q = "SELECT * FROM `student_marks` WHERE `mark` > 6;";
+        return $this->conn->query($q);
+    }
+
+    public function getUzduotis9()
+    {
+        $q = "UPDATE `student_address` SET `street` = 'Centrine' WHERE `city` IN ('Vilnius','Kaunas');";
+        $stmt = $this->conn->prepare($q);
+       return $stmt->execute();
+
+    }
+
+    public function getUzduotis10()
+    {
+        $q = "SELECT * FROM `students` LEFT JOIN `student_address` ON `student_address`.`student_id` = `students`.`id`";
+        return $this->conn->query($q);
     }
 }

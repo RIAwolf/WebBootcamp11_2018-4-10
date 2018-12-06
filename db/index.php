@@ -68,5 +68,19 @@ $obj->printAnyTable($result);
 ?>
 <hr width="100%">
 
+<h1>Uzduotis 9</h1>
+<?php
+echo "Is update success: " . $obj->getUzduotis9();
+
+?>
+<hr width="100%">
+
+<h1>Uzduotis 10</h1>
+<?php
+$result = $obj->getUzduotis10();
+$obj->printAnyTable($result);
+?>
+<hr width="100%">
+
 </body>
 </html>
