@@ -15,8 +15,9 @@ include("../fragments/menu3.php");
 </p>
 <atsakymas>
     <?php
+    include_once "TaskInterface.php";
 
-    class Task5
+    class Task5 implements TaskInterface
     {
         private $ugis;
         private $svoris;

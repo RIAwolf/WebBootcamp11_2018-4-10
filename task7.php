@@ -20,43 +20,15 @@ include("fragments/menu.php");
 </div>
 <atsakymas>
     <?php
-
-    class Task7
-    {
-        private $atstumas;
-        private $litrai;
-        private $vidurkis;
-
-        public function setValues($atstumas, $litrai)
-        {
-            $this->atstumas = $atstumas;
-            $this->litrai = $litrai;
-            $this->calcAverage();
-
-        }
-
-        private function calcAverage()
-        {
-            $this->vidurkis = $this->litrai * 100 / $this->atstumas;
-        }
-
-        public function showResults()
-        {
-            echo "Nuvaziavus $this->atstumas ir suvartojus $this->litrai, vidurkis 100 km gaunasi $this->vidurkis";
-        }
-    }
-
     if (isset($_REQUEST["atstumas"]) && isset($_REQUEST["litrai"])) {
         $atstumas = $_REQUEST["atstumas"];
         $litrai = $_REQUEST["litrai"];
 
+        $vidurkis = $litrai * 100 / $atstumas;
 
-        $obj = new Task7();
-        $obj->setValues($atstumas,$litrai);
-        $obj->showResults();
+        echo "Nuvaziavus $atstumas ir suvartojus $litrai, vidurkis 100 km gaunasi $vidurkis";
 
     }
-
     ?>
 
 </atsakymas>
