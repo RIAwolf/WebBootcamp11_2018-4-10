@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="492d6398-c680-4f83-92e2-4de945e9cb57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fragments/menu3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tema3/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tema3/task1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tema3/task2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fragments/menu3.php" beforeDir="false" afterPath="$PROJECT_DIR$/fragments/menu3.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,20 +23,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fragments/menu3.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tema3/task2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="486">
+              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tema3/task1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            <state relative-caret-position="221">
+              <caret line="19" selection-start-line="19" selection-end-line="29" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -92,9 +91,10 @@
         <option value="$PROJECT_DIR$/fragments/menu2.php" />
         <option value="$PROJECT_DIR$/tema3/src/Main.php" />
         <option value="$PROJECT_DIR$/tema3/src/KitasMain.php" />
-        <option value="$PROJECT_DIR$/fragments/menu3.php" />
         <option value="$PROJECT_DIR$/tema3/index.php" />
         <option value="$PROJECT_DIR$/tema3/task1.php" />
+        <option value="$PROJECT_DIR$/fragments/menu3.php" />
+        <option value="$PROJECT_DIR$/tema3/task2.php" />
       </list>
     </option>
   </component>
@@ -175,7 +175,7 @@
       <workItem from="1543827943083" duration="14648000" />
       <workItem from="1543907740566" duration="822000" />
       <workItem from="1543994335572" duration="16297000" />
-      <workItem from="1544080213216" duration="4120000" />
+      <workItem from="1544080213216" duration="4774000" />
     </task>
     <task id="LOCAL-00001" summary="sesijos valymas">
       <created>1544009987258</created>
@@ -268,19 +268,27 @@
       <option name="project" value="LOCAL" />
       <updated>1544020938760</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="oop task 1">
+      <created>1544084988691</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1544084988691</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35887000" />
+    <option name="totallyTimeSpent" value="36541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15681234" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15681234" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32974428" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32974428" />
@@ -335,7 +343,8 @@
     <MESSAGE value="uzduotis 11" />
     <MESSAGE value="uzduotis 12" />
     <MESSAGE value="uzduotis 13 uzduotis 14" />
-    <option name="LAST_COMMIT_MESSAGE" value="uzduotis 13 uzduotis 14" />
+    <MESSAGE value="oop task 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="oop task 1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/task7.php">
@@ -393,13 +402,6 @@
     <entry file="file://$PROJECT_DIR$/fragments/counter.php" />
     <entry file="file://$PROJECT_DIR$/mano.txt" />
     <entry file="file://$PROJECT_DIR$/read.php" />
-    <entry file="file://$PROJECT_DIR$/task2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fragments/styles.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -571,17 +573,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/task2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fragments/menu3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="156">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tema3/task1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        <state relative-caret-position="221">
+          <caret line="19" selection-start-line="19" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tema3/task2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
         </state>
       </provider>
     </entry>
