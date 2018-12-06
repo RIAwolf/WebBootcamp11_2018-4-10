@@ -11,66 +11,62 @@ $obj = new DBConnector();
     <title>Title</title>
 </head>
 <body>
+
 <h1>Uzduotis 1</h1>
-<table>
-    <?php
-
-    $result = $obj->getUzduotis1();
-    if ($result->num_rows > 0) {
-        // output data of each row
-
-        while ($jeailutia = $result->fetch_assoc()) {
-            echo "<tr>";
-            $kaliosikas69 = $jeailutia["id"];
-            $theLegend_27 = $jeailutia["name"];
-            $ManoBaytaiBuvo3 = $jeailutia["surname"];
-            $Bujaka = $jeailutia["phone"];
-            $pamparamampam = $jeailutia["email"];
-
-            echo "<td>$kaliosikas69</td>";
-            echo "<td>$theLegend_27</td>";
-            echo "<td>$ManoBaytaiBuvo3</td>";
-            echo "<td>$Bujaka</td>";
-            echo "<td>$pamparamampam</td>";
-
-            echo "</tr>";
-        }
-    } else {
-        echo "0 results";
-    }
-
-    ?>
-</table>
+<?php
+$result = $obj->getUzduotis1();
+$obj->printAnyTable($result);
+?>
 <hr width="100%">
+
 <h1>Uzduotis 2</h1>
-<table>
-    <?php
+<?php
+$result = $obj->getUzduotis2();
+$obj->printAnyTable($result);
+?>
+<hr width="100%">
 
-    $result = $obj->getUzduotis2();
-    if ($result->num_rows > 0) {
-        // output data of each row
+<h1>Uzduotis 3</h1>
+<?php
+$result = $obj->getUzduotis3();
+$obj->printAnyTable($result);
+?>
+<hr width="100%">
 
-        while ($jeailutia = $result->fetch_assoc()) {
-            echo "<tr>";
-            $kaliosikas69 = $jeailutia["id"];
-            $theLegend_27 = $jeailutia["name"];
-            $ManoBaytaiBuvo3 = $jeailutia["surname"];
-            $Bujaka = $jeailutia["phone"];
-            $pamparamampam = $jeailutia["email"];
+<h1>Uzduotis 4</h1>
+<?php
+$result = $obj->getUzduotis4();
+$obj->printAnyTable($result);
+?>
+<hr width="100%">
 
-            echo "<td>$kaliosikas69</td>";
-            echo "<td>$theLegend_27</td>";
-            echo "<td>$ManoBaytaiBuvo3</td>";
-            echo "<td>$Bujaka</td>";
-            echo "<td>$pamparamampam</td>";
+<h1>Uzduotis 5</h1>
+<?php
+$result = $obj->getUzduotis5();
+$obj->printAnyTable($result);
+?>
+<hr width="100%">
 
-            echo "</tr>";
-        }
-    } else {
-        echo "0 results";
-    }
+<h1>Uzduotis 6</h1>
+<?php
+$result = $obj->getUzduotis6();
+$obj->printAnyTable($result);
+?>
+<hr width="100%">
 
-    ?>
-</table>
+<h1>Uzduotis 7</h1>
+<?php
+$result = $obj->getUzduotis7();
+$obj->printAnyTable($result);
+?>
+<hr width="100%">
+
+<h1>Uzduotis 8</h1>
+<?php
+$result = $obj->getUzduotis8();
+$obj->printAnyTable($result);
+?>
+<hr width="100%">
+
 </body>
 </html>

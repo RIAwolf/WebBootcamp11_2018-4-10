@@ -25,6 +25,24 @@ class DBConnector
         }
     }
 
+    public function printAnyTable($result)
+    {
+        if ($result->num_rows > 0) {
+            // output data of each row
+            echo "<table>";
+            while ($row = $result->fetch_assoc()) {
+                echo "<tr>";
+                foreach ($row as $key => $value) {
+                    echo "<td>$value</td>";
+                }
+                echo "</tr>";
+            }
+            echo "</table>";
+        } else {
+            echo "0 results";
+        }
+    }
+
     // CRUD Read all dalis
     public function getAllStudents()
     {
@@ -80,5 +98,20 @@ class DBConnector
     {
         $q = "SELECT * FROM `students` WHERE `name` LIKE '%as' AND `surname` LIKE '%as' ORDER BY `surname` DESC ;";
         return $this->conn->query($q);
+    }
+
+    public function getUzduotis3()
+    {
+        $q = "SELECT * FROM `student_address` WHERE `city` = 'Kaunas';";
+        return $this->conn->query($q);
+    }
+    public function getUzduotis4()
+    {
+        $q = "SELECT * FROM `student_address` WHERE `postcode` IS NOT NULL;";
+        return $this->conn->query($q);
+    }
+
+    public function getUzduotis5()
+    {
     }
 }
