@@ -69,4 +69,16 @@ class DBConnector
         $stmt->execute();
     }
 
+
+    public function getUzduotis1()
+    {
+        $q = "SELECT * FROM `students` ORDER BY `name` ASC;";
+        return $this->conn->query($q);
+    }
+
+    public function getUzduotis2()
+    {
+        $q = "SELECT * FROM `students` WHERE `name` LIKE '%as' AND `surname` LIKE '%as' ORDER BY `surname` DESC ;";
+        return $this->conn->query($q);
+    }
 }
