@@ -87,66 +87,77 @@ class DBConnector
         $stmt->execute();
     }
 
-
-    public function getUzduotis1()
+    //SELECT visus studentus ir surikiuokite pagal studento vardą nuo A iki Z
+    public function getUzduotis1_6()
     {
         $q = "SELECT * FROM `students` ORDER BY `name` ASC;";
         return $this->conn->query($q);
     }
-
-    public function getUzduotis2()
+    //SELECT studentus kurių vardai ir pavardės baigėsi ‚as‘, surikiuokite rezultatus nuo Z iki A
+    //pagal pavardes
+    public function getUzduotis1_7()
     {
         $q = "SELECT * FROM `students` WHERE `name` LIKE '%as' AND `surname` LIKE '%as' ORDER BY `surname` DESC ;";
         return $this->conn->query($q);
     }
 
-    public function getUzduotis3()
+    //SELECT studentu adresus kurie gyvena Kaune
+    public function getUzduotis1_8()
     {
         $q = "SELECT * FROM `student_address` WHERE `city` = 'Kaunas';";
         return $this->conn->query($q);
     }
 
-    public function getUzduotis4()
+    //SELECT studentų adresus kuriu pašto kodas ne NULL
+    public function getUzduotis1_9()
     {
         $q = "SELECT * FROM `student_address` WHERE `postcode` IS NOT NULL;";
         return $this->conn->query($q);
     }
 
-    public function getUzduotis5()
-    {
-        $q = "SELECT * FROM `student_address` WHERE `postcode` IS NOT NULL;";
-        return $this->conn->query($q);
-    }
-
-    public function getUzduotis6()
+    //SELECT studentų pažymius surikiuokite nuo didžiausio iki mažiausio
+    public function getUzduotis1_10()
     {
         $q = "SELECT * FROM `student_marks` ORDER BY `mark` DESC;";
         return $this->conn->query($q);
     }
 
-    public function getUzduotis7()
+    //Suskaičiuokite kiek studentų gavo maksimalų ivertinimą. Naudokite count(*)
+    public function getUzduotis1_11()
     {
         $q = "SELECT count(*) as `max` FROM `student_marks` WHERE `mark` = 10";
         return $this->conn->query($q);
     }
 
-    public function getUzduotis8()
+    //SELECT studentu pažymius kurie didesnis nei 6
+    public function getUzduotis1_12()
     {
         $q = "SELECT * FROM `student_marks` WHERE `mark` > 6;";
         return $this->conn->query($q);
     }
-
-    public function getUzduotis9()
+    //UPDATE student_address lentelę street stulpelį, kurie gyvena Vilniuje ir Kaune
+    //panaudokite IN
+    public function getUzduotis1_13()
     {
-        $q = "UPDATE `student_address` SET `street` = 'Centrine' WHERE `city` IN ('Vilnius','Kaunas');";
+        $q = "UPDATE `student_address` SET `street` = 'Centrine123' WHERE `city` IN ('Vilnius','Kaunas');";
         $stmt = $this->conn->prepare($q);
-       return $stmt->execute();
+         $stmt->execute();
+        return $stmt->affected_rows;
 
     }
-
-    public function getUzduotis10()
+    //SELECT studentus ir jų adresus panaudojant LEFT JOIN rezultatus surikiuoti pagal
+    //vardus
+    public function getUzduotis1_14()
     {
-        $q = "SELECT * FROM `students` LEFT JOIN `student_address` ON `student_address`.`student_id` = `students`.`id`";
+        $q = "SELECT * FROM `students` LEFT JOIN `student_address` ON `student_address`.`student_id` = `students`.`id` ORDER BY `name` ASC";
+        return $this->conn->query($q);
+
+    }
+    //SELECT studentus ir jų pažymius panaudojant RIGHT JOIN surikiuokite studentus
+    //pagal pažymius
+    public function getUzduotis1_15()
+    {
+        $q = "SELECT * FROM `students` LEFT JOIN `student_marks` ON `student_marks`.`student_id` = `students`.`id` ORDER BY `mark` DESC";
         return $this->conn->query($q);
     }
 }

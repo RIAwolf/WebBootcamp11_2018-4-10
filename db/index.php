@@ -12,72 +12,72 @@ $obj = new DBConnector();
 </head>
 <body>
 
-<h1>Uzduotis 1</h1>
+<h1>Uzduotis 1.6</h1>
 <?php
-$result = $obj->getUzduotis1();
+$result = $obj->getUzduotis1_6();
 $obj->printAnyTable($result);
 ?>
 <hr width="100%">
 
-<h1>Uzduotis 2</h1>
+<h1>Uzduotis 1.7</h1>
 <?php
-$result = $obj->getUzduotis2();
+$result = $obj->getUzduotis1_7();
 $obj->printAnyTable($result);
 ?>
 <hr width="100%">
 
-<h1>Uzduotis 3</h1>
+<h1>Uzduotis 1.8</h1>
 <?php
-$result = $obj->getUzduotis3();
+$result = $obj->getUzduotis1_8();
 $obj->printAnyTable($result);
 ?>
 <hr width="100%">
 
-<h1>Uzduotis 4</h1>
+<h1>Uzduotis 1.9</h1>
 <?php
-$result = $obj->getUzduotis4();
+$result = $obj->getUzduotis1_9();
 $obj->printAnyTable($result);
 ?>
 <hr width="100%">
 
-<h1>Uzduotis 5</h1>
+<h1>Uzduotis 1.10</h1>
 <?php
-$result = $obj->getUzduotis5();
+$result = $obj->getUzduotis1_10();
 $obj->printAnyTable($result);
 ?>
 <hr width="100%">
 
-<h1>Uzduotis 6</h1>
+<h1>Uzduotis 1.11</h1>
 <?php
-$result = $obj->getUzduotis6();
+$result = $obj->getUzduotis1_11();
 $obj->printAnyTable($result);
 ?>
 <hr width="100%">
 
-<h1>Uzduotis 7</h1>
+<h1>Uzduotis 1.12</h1>
 <?php
-$result = $obj->getUzduotis7();
+$result = $obj->getUzduotis1_12();
 $obj->printAnyTable($result);
 ?>
 <hr width="100%">
 
-<h1>Uzduotis 8</h1>
+<h1>Uzduotis 1.13</h1>
 <?php
-$result = $obj->getUzduotis8();
+$result = $obj->getUzduotis1_13();
+echo "Num affected rows $result";
+?>
+<hr width="100%">
+
+<h1>Uzduotis 1.14</h1>
+<?php
+$result = $obj->getUzduotis1_14();
 $obj->printAnyTable($result);
 ?>
 <hr width="100%">
 
-<h1>Uzduotis 9</h1>
+<h1>Uzduotis 1.15</h1>
 <?php
-echo "Is update success: " . $obj->getUzduotis9();
-
-?>
-<hr width="100%">
-
-<h1>Uzduotis 10</h1>
-<?php
-$result = $obj->getUzduotis10();
+$result = $obj->getUzduotis1_15();
 $obj->printAnyTable($result);
 ?>
 <hr width="100%">
