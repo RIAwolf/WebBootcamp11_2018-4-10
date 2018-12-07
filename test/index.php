@@ -34,7 +34,7 @@ if (isset($_REQUEST["action"])) {
             $payed = isset($_REQUEST["payed"]) ? $_REQUEST["payed"] : 0;
             if ($fine < 0) {
                 $fine = 0;
-                $payed = 0;
+                $payed = 1;
             }
             $db->add(
                 $_REQUEST["license"], $_REQUEST["mark"], $_REQUEST["model"], $_REQUEST["year"],
